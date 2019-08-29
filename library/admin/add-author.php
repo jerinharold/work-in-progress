@@ -26,7 +26,7 @@ else
 $_SESSION['error']="Something went wrong. Please try again";
 header('location:manage-authors.php');
 }
-
+//Cordy contact:(+1)623-244-8464 
 }
 ?>
 <!DOCTYPE html>
