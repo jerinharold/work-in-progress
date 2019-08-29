@@ -9,6 +9,7 @@ header('location:index.php');
 else{ 
 if(isset($_POST['change']))
   {
+//Does that look perfect ?
 $password=md5($_POST['password']);
 $newpassword=md5($_POST['newpassword']);
 $username=$_SESSION['alogin'];
