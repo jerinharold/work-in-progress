@@ -17,7 +17,3 @@ Login Details for user: test@gmail.com/Test@123
 For Admin Panel
 
 Open Your browser put inside browser “http://localhost/library/admin”
-Login Details for admin : admin/Test@12345
-
-
-For More Details --- 
