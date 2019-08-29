@@ -94,7 +94,7 @@ $returnedbooks=$query2->rowCount();
     <script src="assets/js/jquery-1.10.2.js"></script>
     <!-- BOOTSTRAP SCRIPTS  -->
     <script src="assets/js/bootstrap.js"></script>
-      <!-- CUSTOM SCRIPTS  -->
+      <!-- CUSTOM SCRIPTS 0000 -->
     <script src="assets/js/custom.js"></script>
 </body>
 </html>
