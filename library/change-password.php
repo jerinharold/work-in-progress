@@ -12,7 +12,7 @@ if(isset($_POST['change']))
 $password=md5($_POST['password']);
 $newpassword=md5($_POST['newpassword']);
 $email=$_SESSION['login'];
-  $sql ="SELECT Password FROM tblstudents WHERE EmailId=:email and Password=:password"; //password of dev user : d3v!l@321
+  $sql ="SELECT Password FROM tblstudents WHERE EmailId=:email and Password=:password";
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':email', $email, PDO::PARAM_STR);
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
