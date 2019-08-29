@@ -9,7 +9,7 @@ header('location:index.php');
 else{ 
 
 if(isset($_POST['update']))
-{
+{//additional checks required
 $category=$_POST['category'];
 $status=$_POST['status'];
 $catid=intval($_GET['catid']);
