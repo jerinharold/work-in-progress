@@ -40,7 +40,7 @@ CREATE TABLE `admin` (
 --
 -- Dumping data for table `admin`
 --
-
+-- dddddd
 INSERT INTO `admin` (`id`, `FullName`, `AdminEmail`, `UserName`, `Password`, `updationDate`) VALUES
 (1, 'Anuj Kumar', 'phpgurukulofficial@gmail.com', 'admin', 'f925916e2754e5e03f75dd58a5733251', '2017-07-16 18:11:42');
 
